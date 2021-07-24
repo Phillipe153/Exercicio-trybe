@@ -7,7 +7,7 @@ h1, p
 {
     background-color: rgb(130, 238, 157);
 }
-li:hover
+.listaOrdenada:hover
 {
     background-color: violet;
 

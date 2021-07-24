@@ -1,0 +1,67 @@
+ol li
+{
+    padding: 10px;
+    background-color: yellow;
+}
+ol li:nth-child(even)
+{
+    background-color: green;
+}
+ol li:nth-child(odd)
+{
+    text-transform: uppercase;
+}
+h1, h3 
+{
+    color: red;
+}
+ h1 em
+ {
+     font-size: 40px;
+     border: 1px solid black;
+
+ }
+
+ li
+ {
+     font-size: 20px;
+ }
+  li em
+  {
+      font-weight: bold;
+  }
+  /*li:not(:nth-child(n+4))
+  {
+    color: blue;
+  }*/
+  .pink-bg {
+    background-color: pink;
+  }
+  .aliados:hover
+  {
+      font-weight: 900;
+      
+  }   
+  .aliados :hover [href*="StackOverflow"]  
+  {
+      background-color: orange;
+      color: orange  ;
+  }
+  .aliados:hover[href*="W3Schools" ] 
+  {
+      color: green ;
+  }  
+  .aliados:hover[href*="MDN Web Docs"]  
+  {
+      color: blue;
+  }  
+  .aliados:hover[href*="DevDocs"]  
+  {
+      color: gray;
+  }  
+  .aliados:hover[href*="Trybe"]  
+  {
+      color: green;
+  }  
+    
+  
