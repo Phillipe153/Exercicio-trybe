@@ -26,24 +26,35 @@
 .baloon 
 {
   width: 200px;
-  height: 200px;
+  height: 150px;
   padding: 50px;
   position: absolute;
-  z-index: 1;
+  z-index: 2;
+  float: left;
+  
 }
 
 .speach 
 {
+  margin-top: 100px;
+  margin-left: 60px;
   position: absolute;
-  font-size: 20px;
-  z-index: 1;
+  font-size: 15px;
+  z-index: 3;
+  
+
+ 
 }
 
 .bowser 
 {
-  background-color: darkgreen;
-  width: 100px;
-  height: 100px;
-  padding: 50px;
-  margin: 10px;
+  
+  width: 200px;
+  height: 300px;
+  padding: 50px; 
+  position: absolute; 
+  z-index: 1;
+  left: 200px;
+  
+  
 }
