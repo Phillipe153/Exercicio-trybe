@@ -1,0 +1,23 @@
+h1, p
+{
+    text-align: center;
+    
+}
+.lista:hover
+{
+    background-color: rgb(130, 238, 157);
+}
+li:hover
+{
+    background-color: violet;
+
+}
+li:active
+{
+    font: times;
+    
+}
+li
+{
+    list-style: none;
+}
