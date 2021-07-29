@@ -56,3 +56,43 @@ else
  let maior = Math.max (a,b,c);
 
 console.log (maior)
+
+//4 Retorna positivo ou negativo
+console.log ( " -> 4 Retorna positivo ou negativo");
+
+let d = -8;
+
+
+/*switch (d) 
+{
+    case >0:
+        console.log("positivo");
+        break;
+    case <0:
+        console.log("negativo");
+        break;
+    default:
+        console.log("indefinido");
+}*/
+ if (d>=0)
+ {
+    console.log("positivo");
+ }
+ else if (d<0)
+ {
+    console.log("negativo");
+ }
+        
+ //5 Retorna angulos internos de um triangulo
+console.log ( " -> 5 Retorna angulos internos de um triangulo");
+let f =  Math.floor(Math.random() * 181);
+let g = Math.floor(Math.random() * 181);
+let h =Math.floor(Math.random() * 181);
+console.log(f);
+console.log(g);
+console.log(h);
+if ((f+g+h)==180)
+{
+    console.log (true);
+}
+else { console.log (false);}
