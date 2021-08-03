@@ -55,7 +55,7 @@ let sequencia =[2, 3, 6, 7, 10, 1];
 
  /* 3 Crie uma função que receba um array de inteiros e retorne o índice do menor valor.
 Array de teste: [2, 4, 6, 7, 10, 0, -3]; .
-Valor esperado no retorno da função: 6 .*/
+Valor esperado no retorno da função: 6 .
 function menor (a)
 {
     let m= null;
@@ -72,3 +72,28 @@ function menor (a)
 let sequencia =[2, 4, 6, 7, 10, 0, -3];
  console.log(menor(sequencia));
 
+4 - Crie uma função que receba um array de nomes e retorne o nome com a maior quantidade de caracteres.
+Array de teste: ['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana']; .
+Valor esperado no retorno da função: Fernanda .*/
+
+
+
+function maisCaracteres (a)
+    {
+        let maior=null
+        let atual = null
+        let nome = null;
+        for ( let key in a)
+            {
+                
+                atual = a[key].length;
+                if (maior===null){maior=atual;nome=a[key];}
+                else if (maior<atual)
+                    {maior=atual;
+                    nome=a[key];}
+                    
+            }
+            return nome;
+    }    
+    teste=['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana'];
+    console.log(maisCaracteres(teste));
