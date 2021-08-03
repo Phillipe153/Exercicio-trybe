@@ -4,7 +4,7 @@ let teste2 = teste.split (separator);
 console.log(teste2.length);
 let teste3 = teste2.reverse();
 console.log(teste3);
-*/
+
 function palindrono(a)
 {
     let separator = "";
@@ -31,3 +31,24 @@ palindrono(palavra1);
 palindrono(palavra2);
 palindrono(palavra3);
 palindrono(palavra4);
+*/
+
+/* 2 - Crie uma função que receba um array de inteiros e retorne o índice do maior valor.
+Array de teste: [2, 3, 6, 7, 10, 1]; .
+Valor esperado no retorno da função: 4 .*/
+
+function maior (a)
+{
+    let m= null;
+    for (let key in a)
+        {
+            if (m===null)
+                {m=key;}
+            else if (a[key]>m)
+                {m=key;}
+        }
+    return m;
+}
+
+let sequencia =[2, 3, 6, 7, 10, 1];
+ console.log(maior(sequencia));
