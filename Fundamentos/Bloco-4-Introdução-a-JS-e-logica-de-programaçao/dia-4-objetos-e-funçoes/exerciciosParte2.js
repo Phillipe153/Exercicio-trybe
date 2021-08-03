@@ -35,7 +35,7 @@ palindrono(palavra4);
 
 /* 2 - Crie uma função que receba um array de inteiros e retorne o índice do maior valor.
 Array de teste: [2, 3, 6, 7, 10, 1]; .
-Valor esperado no retorno da função: 4 .*/
+Valor esperado no retorno da função: 4 .
 
 function maior (a)
 {
@@ -51,4 +51,24 @@ function maior (a)
 }
 
 let sequencia =[2, 3, 6, 7, 10, 1];
- console.log(maior(sequencia));
+ console.log(maior(sequencia));*/
+
+ /* 3 Crie uma função que receba um array de inteiros e retorne o índice do menor valor.
+Array de teste: [2, 4, 6, 7, 10, 0, -3]; .
+Valor esperado no retorno da função: 6 .*/
+function menor (a)
+{
+    let m= null;
+    for (let key in a)
+        {
+            if (m===null)
+                {m=key;}
+            else if (a[key]<m)
+                {m=key;}
+        }
+    return m;
+}
+
+let sequencia =[2, 4, 6, 7, 10, 0, -3];
+ console.log(menor(sequencia));
+
