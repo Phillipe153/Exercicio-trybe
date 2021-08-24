@@ -1,8 +1,10 @@
 
 
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+numbers.splice(2,0,70);
+numbers.splice(5,1);
 console.log (numbers);
-
+/*
 console.log ("=> Exercico 2");
 console.log ("");
 let soma = 0;
@@ -91,3 +93,4 @@ for (i=0;i<25;i++)
 console.log(divisao);
 
 
+*/
